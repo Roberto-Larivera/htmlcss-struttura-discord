@@ -26,6 +26,8 @@
     margin: 0 auto;
     min-height: 70px;
 }
+
+/* HEADER */
 .debug header{
     min-height: 70px;
     background-color: antiquewhite;
@@ -61,7 +63,8 @@
     height: 50px;
     width: 50px;
 }
-
+/* MAIN */
+/* JUMBOTRON */
 .debug .jumbotron{
     background-color: aquamarine;
     padding: 30px 0;
@@ -72,13 +75,14 @@
     height: 500px;
 }
 
+/* SEZIONI */
 .debug .sezione-1{
     background-color: aqua;
-    padding: 150px;
+    padding: 150px 0;
 }
 .debug .sezione-2{
     background-color: antiquewhite;
-    padding: 150px;
+    padding: 150px 0;
 }
 .debug .contenitore-sezione-1{
     background-color: yellow;
@@ -119,7 +123,7 @@
 .debug .footer-sezione-1{
     background-color: lightgray;
     border: 1px dashed red;
-    padding: 50px;
+    padding: 50px 0;
 }
 .debug .footer-sezione-1 > div{
     width: 100%;

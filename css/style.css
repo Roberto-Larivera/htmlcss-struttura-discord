@@ -17,7 +17,6 @@
 }
 .debug .container-flex{
     display: flex;
-    justify-content: ;
 }
 .debug .contenitore{
     max-width: 1200px;
@@ -71,6 +70,11 @@
 }
 
 .debug .sezione-1{
+    background-color: aqua;
+    padding: 150px;
+}
+.debug .sezione-2{
+    background-color: antiquewhite;
     padding: 150px;
 }
 .debug .contenitore-sezione-1{
@@ -82,4 +86,30 @@
     border: 1px dashed red;
     width: 60%;
     height: 500px;
+}
+.debug .contenitore-sezione-1  .cont-sezione-b{
+    background-color: brown;
+    border: 1px dashed red;
+    height: 500px;
+    width: 40%;
+}
+
+
+.debug .contenitore-sezione-1  .cont-sezione-b-2{
+    background-color: brown;
+    border: 1px dashed red;
+    width: 60%;
+    height: 500px;
+}
+.debug .contenitore-sezione-1  .cont-sezione-a-2{
+    background-color: yellowgreen;
+    border: 1px dashed red;
+    width: 40%;
+    height: 500px;
+}
+.debug .cont-sezione-4{
+    background-color: gray;
+    border: 1px dashed red;
+    height: 500px;
+}
 }

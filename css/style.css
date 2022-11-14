@@ -8,6 +8,9 @@
 /* GENERALE */
 
 /* DEBUG */
+.debug{
+    padding: 15px;
+}
 .debug .container-flex-bet{
     display: flex;
     justify-content: space-between;
@@ -20,7 +23,6 @@
     max-width: 1200px;
     margin: 0 auto;
     min-height: 70px;
-    padding: 15px 0;
 }
 .debug header{
     min-height: 70px;
@@ -60,9 +62,24 @@
 
 .debug .jumbotron{
     background-color: aquamarine;
-    padding: 15px;
+    padding: 15px 0;
 }
 .debug .jumbotron > div{
     background-color: fuchsia;
+    border: 5px dashed red;
+    height: 500px;
+}
+
+.debug .sezione-1{
+    padding: 150px;
+}
+.debug .contenitore-sezione-1{
+    background-color: yellow;
+    border: 1px dashed red;
+}
+.debug .contenitore-sezione-1  .cont-sezione-a{
+    background-color: yellowgreen;
+    border: 1px dashed red;
+    width: 60%;
     height: 500px;
 }

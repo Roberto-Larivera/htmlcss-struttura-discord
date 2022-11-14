@@ -8,3 +8,48 @@
 /* GENERALE */
 
 /* DEBUG */
+.debug .container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.debug .contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 15px 0;
+}
+.debug header{
+    min-height: 70px;
+    background-color: antiquewhite;
+}
+.debug header > div{
+    min-height: 70px;
+    align-items: center;
+}
+.debug .logo{
+    background-color: aqua;
+    border: 1px dashed red;
+    height: 50px;
+    width: 50px;
+}
+.debug header nav{
+    background-color: cyan;
+    height: 50px;
+    width: 600px;
+}
+.debug header nav ul{
+    display: flex;
+}
+.debug header nav>ul>li>a{
+    display: inline-block;
+    background-color: rgb(149, 255, 0);
+    border: 1px dashed red;
+    height: 50px;
+    width: 50px;
+}
+.debug header button{
+    background-color: rgb(255, 187, 0);
+    border: 1px dashed red;
+    height: 50px;
+    width: 50px;
+}

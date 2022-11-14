@@ -6,51 +6,5 @@
 }
 
 /* GENERALE */
-body{
-    
-}
-.top-header{
-    min-height: 70px;
-}
-
-.container-flex{
-    display: flex;
-    flex-direction: row;
-}
-
-
 
 /* DEBUG */
-.debug .box-width{
-    max-width: 1200px;
-}
-.debug .header{
-    background-color: antiquewhite;
-}
-.debug .logo{
-    width: 50px;
-    height: 50px;
-    
-    background-color: aqua;
-}
-.debug .link-header{
-    height: 50px;
-    width: 600px;
-    background-color: blueviolet;
-}
-.debug .button{
-    width: 50px;
-    height: 50px;
-}
-.debug .top-header{
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-}
-.debug .jumbotron{
-    background-color: blue;
-    height: 500px;
-}
-.debug .jumb-img{
-    
-}

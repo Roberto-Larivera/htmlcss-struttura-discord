@@ -8,14 +8,18 @@
 /* GENERALE */
 
 /* DEBUG */
-.debug .container-flex{
+.debug .container-flex-bet{
     display: flex;
     justify-content: space-between;
+}
+.debug .container-flex{
+    display: flex;
+    justify-content: ;
 }
 .debug .contenitore{
     max-width: 1200px;
     margin: 0 auto;
-    height: 100%;
+    min-height: 70px;
     padding: 15px 0;
 }
 .debug header{
@@ -52,4 +56,13 @@
     border: 1px dashed red;
     height: 50px;
     width: 50px;
+}
+
+.debug .jumbotron{
+    background-color: aquamarine;
+    padding: 15px;
+}
+.debug .jumbotron > div{
+    background-color: fuchsia;
+    height: 500px;
 }

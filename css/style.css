@@ -18,6 +18,9 @@
 .debug .container-flex{
     display: flex;
 }
+.debug .container-align{
+    align-items: center;
+}
 .debug .contenitore{
     max-width: 1200px;
     margin: 0 auto;
@@ -61,7 +64,7 @@
 
 .debug .jumbotron{
     background-color: aquamarine;
-    padding: 15px 0;
+    padding: 30px 0;
 }
 .debug .jumbotron > div{
     background-color: fuchsia;
@@ -116,7 +119,7 @@
 .debug .footer-sezione-1{
     background-color: lightgray;
     border: 1px dashed red;
-    padding: 10px;
+    padding: 50px;
 }
 .debug .footer-sezione-1 > div{
     width: 100%;
@@ -144,3 +147,19 @@
 .debug .footer-sez-5{
     background-color: greenyellow;
 } 
+
+.debug .footer-sezione-2{
+    background-color: lightgray;
+    border: 1px dashed red;
+    padding-top: 30px;
+}
+.debug .footer-end{
+    background-color: mediumslateblue;
+}
+
+.debug .footer-sezione-2 button{
+    background-color: rgb(255, 187, 0);
+    border: 1px dashed red;
+    height: 50px;
+    width: 50px;
+}

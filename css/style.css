@@ -112,4 +112,35 @@
     border: 1px dashed red;
     height: 500px;
 }
+
+.debug .footer-sezione-1{
+    background-color: lightgray;
+    border: 1px dashed red;
+    padding: 10px;
 }
+.debug .footer-sezione-1 > div{
+    width: 100%;
+}
+.debug .footer-sez-1{
+    background-color: blueviolet;
+    border: 1px dashed red;
+    height: 400px;
+    width: 36% ;
+} 
+.debug .footer-sez-a{
+    border: 1px dashed red;
+    height: 400px;
+    width: calc(64% / 4);
+} 
+.debug .footer-sez-2{
+    background-color: gold;
+}
+.debug .footer-sez-3{
+    background-color: goldenrod;
+} 
+.debug .footer-sez-4{
+    background-color: green;
+} 
+.debug .footer-sez-5{
+    background-color: greenyellow;
+} 

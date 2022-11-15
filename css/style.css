@@ -6,6 +6,51 @@
 }
 
 /* GENERALE */
+.contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HARDER */
+.header-alfa{
+    display: flex;
+}
+.header-alfa > *{
+    padding: 10px;
+}
+.mini-header{
+    width: 25%;
+}
+.maxi-header{
+    width:50%
+}
+.maxi-header ul{
+    list-style-type: none;
+    text-align: center;
+}
+.maxi-header ul li{
+    display: inline-block; 
+}
+.maxi-header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-sotto{
+    padding: 30px 0;
+}
+.header-sotto .jumbotron{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+
+
+
+
+
+
 
 /* DEBUG */
 .debug{
@@ -18,68 +63,43 @@
 .debug .container-flex{
     display: flex;
 }
-.debug .container-align{
+.debug .container-flex-align{
     align-items: center;
 }
-.debug .contenitore{
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 70px;
+.debug .border-red{
+    border: 2px dashed red;
 }
+
+
+/* .debug main, .debug footer{
+    display: none;
+} */
+
 
 /* HEADER */
-.debug header{
-    background-color: antiquewhite;
-    
-    min-height: 70px;
-}
-.debug .logo{
-    background-color: aqua;
-    border: 1px dashed red;
-    
-    height: 50px;
-    width: 50px;
-}
-.debug header nav{
+.debug .header-sopra{
     background-color: cyan;
-    
-    height: 50px;
-    width: 600px;
 }
-.debug header nav ul{
-    list-style-type: none;
-}
-.debug header nav>ul>li>a{
-    background-color: rgb(149, 255, 0);
-    border: 1px dashed red;
-    
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-}
-.debug header button{
-    background-color: rgb(255, 187, 0);
-    border: 1px dashed red;
-    
-    height: 50px;
-    width: 50px;
+.debug .header-sopra .contenitore{
+    background-color: orange;
 }
 
+.debug .mini-header{
+    width: 25%;
+}
+.debug .maxi-header{
+    width:50%
+}
 
+.debug .header-sotto{
+    background-color: blue;
+}
+.header-sotto .jumbotron{
+    background-color: blueviolet;
+}
 
 /* **** MAIN */
 /* JUMBOTRON */
-.debug .jumbotron{
-    background-color: aquamarine;
-   
-    padding: 30px 0;
-}
-.debug .jumbotron > div{
-    background-color: fuchsia;
-    border: 5px dashed red;
-   
-    height: 500px;
-}
 
 
 
@@ -172,10 +192,11 @@
     background-color: mediumslateblue;
 }
 
-.debug .footer-sezione-2 button{
+.debug .footer-sezione-2 .button{
     background-color: rgb(255, 187, 0);
-    border: 1px dashed red;
-    
-    height: 50px;
-    width: 50px;
+    padding: 5px;
+}
+.debug .footer-sezione-2 .logo{
+    background-color: rgb(255, 187, 0);
+    padding: 5px;
 }
